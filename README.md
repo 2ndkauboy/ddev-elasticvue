@@ -20,8 +20,8 @@ The add-on assumes that the Elasticsearch service is named `elasticsearch` and t
 
 ![Web-to-print settings menu](images/elasticvue-predefined-clusters-annotated.png)
 
-1. Click on the `Predefined Clusters` button
-2. Click on the `Import 1 Cluster` button
+1. Click on the `Predefined Clusters` button.
+2. Click on the `Import 1 Cluster` button.
 
 This only need to be done the first time you use this for a new project. If your clusters are named differently, you can use the "Add Elasticsearch Cluster" button. If you have other issues, refer to the official website or GitHub repository of Elasticvue listed below.
 
@@ -32,8 +32,8 @@ Elasticvue is a free and open-source gui for elasticsearch that you can use to m
 
 ## Additional Resources
 
-- [Elasticvue official website](https://elasticvue.com/)-
+- [Elasticvue official website](https://elasticvue.com/).
 - [Elasticvue GitHub repository](https://github.com/cars10/elasticvue).
 
-**Elasticvue is maintained by @cars10**
-**DDEV Elasticvue is maintained by @2ndkauboy**
+**Elasticvue is maintained by [@cars10](https://github.com/cars10)**  
+**DDEV Elasticvue is maintained by [@2ndkauboy](https://github.com/2ndkauboy)**
