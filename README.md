@@ -1,13 +1,13 @@
-[![tests](https://github.com/ddev/ddev-addon-template/actions/workflows/tests.yml/badge.svg)](https://github.com/ddev/ddev-addon-template/actions/workflows/tests.yml) ![project is maintained](https://img.shields.io/maintenance/yes/2024.svg)
+[![tests](https://github.com/2ndkauboy/ddev-elasticvue/actions/workflows/tests.yml/badge.svg)](https://github.com/2ndkauboy/ddev-elasticvue/actions/workflows/tests.yml) ![project is maintained](https://img.shields.io/maintenance/yes/2024.svg)
 
-# ddev-addon-template <!-- omit in toc -->
+# ddev-elasticvue <!-- omit in toc -->
 
-* [What is ddev-addon-template?](#what-is-ddev-addon-template)
+* [What is ddev-elasticvue?](#what-is-ddev-elasticvue)
 * [Components of the repository](#components-of-the-repository)
 * [Getting started](#getting-started)
 * [How to debug in Github Actions](#how-to-debug-tests-github-actions)
 
-## What is ddev-addon-template?
+## What is ddev-elasticvue?
 
 This repository is a template for providing [DDEV](https://ddev.readthedocs.io) add-ons and services.
 
