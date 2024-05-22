@@ -11,7 +11,7 @@ services:
       - VIRTUAL_HOST=$DDEV_HOSTNAME
       - HTTP_EXPOSE=5610:8080
       - HTTPS_EXPOSE=5611:8080
-      - "ELASTICVUE_CLUSTERS=[{\"name\":\"docker-cluster\",\"uri\":\"http://${DDEV_SITENAME}.${DDEV_TLD}:9200\"}]"
+      - "ELASTICVUE_CLUSTERS=[{\"name\":\"docker-cluster\",\"uri\":\"https://${DDEV_SITENAME}.${DDEV_TLD}:9201\"}]"
     depends_on:
       - elasticsearch
 
