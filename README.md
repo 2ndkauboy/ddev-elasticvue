@@ -16,7 +16,7 @@ You can then visit Elasticvue by running `ddev elasticvue` or visiting the URL s
 
 ## Configuration
 
-The add-on assumes that the Elasticsearch service is named `elasticsearch` and the (only) cluster is named `docker-cluster`. If this is the case, you can import the predifened cluster on the welcome screen:
+The add-on assumes that the Elasticsearch service is named `elasticsearch`. If this is the case, you can import the predefined cluster on the welcome screen:
 
 ![Web-to-print settings menu](images/elasticvue-predefined-clusters-annotated.png)
 
