@@ -8,7 +8,15 @@ This repository allows you to quickly install Elasticvue into a [DDEV](https://d
 
 ## Installation
 
+For DDEV v1.23.5 or above run
+
+```sh
+ddev add-on get 2ndkauboy/ddev-elasticvue && ddev restart
 ```
+
+For earlier versions of DDEV run
+
+```sh
 ddev get 2ndkauboy/ddev-elasticvue && ddev restart
 ```
 
