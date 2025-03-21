@@ -12,6 +12,11 @@ services:
       - HTTP_EXPOSE=5610:8080
       - HTTPS_EXPOSE=5611:8080
       - "ELASTICVUE_CLUSTERS=[{\"name\":\"docker-cluster\",\"uri\":\"https://${DDEV_SITENAME}.${DDEV_TLD}:9201\"}]"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "https://${DDEV_SITENAME}.${DDEV_TLD}:9201"]
+      interval: 120s
+      timeout: 10s
+      retries: 2
     depends_on:
       - elasticsearch
 
